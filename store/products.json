@@ -1,6 +1,6 @@
 {
   "bundleId": "com.nickhigh.game2",
-  "subscriptionGroup": "Nico Club (game 2)",
+  "subscriptionGroup": "Fizby Club (game 2)",
   "products": [
     { "id": "com.nickhigh.game2.club.yearly", "type": "auto-renewable subscription", "duration": "1 year", "price": "29.99 USD", "introOffer": "7-day free trial", "groupLevel": 1 },
     { "id": "com.nickhigh.game2.club.monthly", "type": "auto-renewable subscription", "duration": "1 month", "price": "4.99 USD", "introOffer": "7-day free trial", "groupLevel": 2 },

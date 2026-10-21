@@ -1,6 +1,6 @@
-# Nico Builds!
+# Fizby Builds!
 
-A building game for ages 3 to 6, starring the Nico mascot (name set in `src/brand.ts`). It is the second app in the family, after the science game. Kids don't need to read: Nico speaks every instruction, and an animated hand demos the first move and comes back after 6 seconds without a tap. Back is always one tap. No ads, no tracking, no third-party SDKs.
+A building game for ages 3 to 6, starring the Fizby mascot (name set in `src/brand.ts`). It is the second app in the family, after the science game. Kids don't need to read: Fizby speaks every instruction, and an animated hand demos the first move and comes back after 6 seconds without a tap. Back is always one tap. No ads, no tracking, no third-party SDKs.
 
 **Play in a browser:** https://nhigh723.github.io/nico-game-2/
 
@@ -10,7 +10,7 @@ A building game for ages 3 to 6, starring the Nico mascot (name set in `src/bran
 | 2 | Tall Tower (free) | Stack up to the flag, then tap the fan. Narrow-at-the-bottom towers blow over | Balance, centre of mass, counting |
 | 3 | Bunny Bridge | Planks and posts across a river; Bunny walks it for real | Length, supports at both ends, cause and effect |
 | 4 | Roll Road | Tilt ramps, drag in missing ones, drop the ball (real ball physics) | Slopes, gravity, planning |
-| 5 | Copy Nico | Rebuild the mascot's model; from level 3 it hides (tap the eye to peek) | Spatial position, colors, memory |
+| 5 | Copy Fizby | Rebuild the mascot's model; from level 3 it hides (tap the eye to peek) | Spatial position, colors, memory |
 | 6 | Build Yard | Open building with gravity; save builds to My Town | Creativity, counting, balance |
 
 **Replay:** after 5 authored levels each activity keeps going with remixed levels. Every win unlocks new Build Yard blocks (window, arch, wheel, dome, tall, star) and new friends who move into **My Town**, a scrolling street of everything the child has built (saved on the device in localStorage). In the grown-ups area, the "What your child practised" panel shows skill bars.

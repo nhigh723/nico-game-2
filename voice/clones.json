@@ -53,6 +53,24 @@
 "take": "1727tid~0",
 "text": "Seven blocks!"
 },
+"17cqa1i": {
+"check": {
+"bad": [],
+"edge_in": -38.9,
+"edge_out": -38.8,
+"heard": "Hi, I'm Fizbee. Let's build!",
+"islands": 3,
+"lead": 55,
+"lufs": -16.46,
+"trail": 55
+},
+"heard": "Hi, I'm Fizbee. Let's build!",
+"padded": true,
+"sim": 0.957,
+"take": "17cqa1i~3",
+"text": "Hi! I'm Fizby. Let's build!",
+"trimmed_sim": 0.919
+},
 "17s3rwz": {
 "heard": "You used seven blocks!",
 "sim": 0.921,
@@ -146,12 +164,22 @@
 "text": "Whoa! It tipped over. Put it in the middle!"
 },
 "1e9g2d4": {
+"check": {
+"bad": [],
+"edge_in": -35.8,
+"edge_out": -36.7,
+"heard": "Hooray!",
+"islands": 1,
+"lead": 50,
+"lufs": -16.39,
+"trail": 50
+},
 "heard": "Hooray!",
 "padded": true,
 "sim": 0.942,
 "take": "1e9g2d4~3",
 "text": "Hooray!",
-"trimmed_sim": 0.731
+"trimmed_sim": 0.708
 },
 "1g24mp8": {
 "heard": "You used two blocks.",
@@ -172,12 +200,22 @@
 "text": "Fourteen blocks!"
 },
 "1j6otxr": {
-"heard": "new color!",
+"check": {
+"bad": [],
+"edge_in": -21.6,
+"edge_out": -37.2,
+"heard": "New color!",
+"islands": 1,
+"lead": 50,
+"lufs": -16.48,
+"trail": 80
+},
+"heard": "New color!",
 "padded": true,
 "sim": 0.952,
 "take": "1j6otxr~3",
 "text": "New color!",
-"trimmed_sim": 0.752
+"trimmed_sim": 0.782
 },
 "1jj6p6k": {
 "heard": "You used five blocks.",
@@ -222,12 +260,22 @@
 "text": "Seven!"
 },
 "1mnrzlq": {
+"check": {
+"bad": [],
+"edge_in": -28.3,
+"edge_out": -30.6,
+"heard": "Three!",
+"islands": 1,
+"lead": 80,
+"lufs": -16.4,
+"trail": 55
+},
 "heard": "Three.",
 "padded": true,
-"sim": 0.947,
-"take": "1mnrzlq~5",
+"sim": 0.942,
+"take": "1mnrzlq~6",
 "text": "Three!",
-"trimmed_sim": 0.686
+"trimmed_sim": 0.718
 },
 "1n2spr0": {
 "heard": "Bunny made it! Your bridge is strong!",
@@ -248,6 +296,16 @@
 "text": "Splash! That plank was too short. Find a longer one!"
 },
 "1p30gsx": {
+"check": {
+"bad": [],
+"edge_in": -18.4,
+"edge_out": -36.8,
+"heard": "You did it!",
+"islands": 1,
+"lead": 55,
+"lufs": -16.41,
+"trail": 55
+},
 "heard": "You did it!",
 "padded": true,
 "sim": 0.945,
@@ -346,12 +404,22 @@
 "text": "That space needs a star!"
 },
 "3nmc7k": {
-"heard": "5",
+"check": {
+"bad": [],
+"edge_in": -34.4,
+"edge_out": -33.2,
+"heard": "Five!",
+"islands": 1,
+"lead": 55,
+"lufs": -16.36,
+"trail": 60
+},
+"heard": "Five!",
 "padded": true,
-"sim": 0.95,
-"take": "3nmc7k~3",
+"sim": 0.936,
+"take": "3nmc7k~7",
 "text": "Five!",
-"trimmed_sim": 0.72
+"trimmed_sim": 0.715
 },
 "3nqy2q": {
 "heard": "For",
@@ -360,6 +428,24 @@
 "take": "3nqy2q~4",
 "text": "Four!",
 "trimmed_sim": 0.745
+},
+"3t9hzk": {
+"check": {
+"bad": [],
+"edge_in": -19.5,
+"edge_out": -32.7,
+"heard": "Nine!",
+"islands": 1,
+"lead": 55,
+"lufs": -16.51,
+"trail": 60
+},
+"heard": "Nine!",
+"padded": true,
+"sim": 0.913,
+"take": "3t9hzk~1",
+"text": "Nine!",
+"trimmed_sim": 0.76
 },
 "3vbyah": {
 "heard": "It fits!",
@@ -394,12 +480,22 @@
 "text": "Your town is empty. Build something in the Build Yard!"
 },
 "5qxldq": {
+"check": {
+"bad": [],
+"edge_in": -32.6,
+"edge_out": -38.0,
+"heard": "Two blocks!",
+"islands": 1,
+"lead": 50,
+"lufs": -16.4,
+"trail": 55
+},
 "heard": "Two blocks!",
 "padded": true,
 "sim": 0.947,
 "take": "5qxldq~3",
 "text": "Two blocks!",
-"trimmed_sim": 0.82
+"trimmed_sim": 0.787
 },
 "64cesm": {
 "heard": "You used six blocks!",
@@ -516,12 +612,22 @@
 "text": "Bunny wants the carrot! Build a bridge across the water."
 },
 "iwnbar": {
+"check": {
+"bad": [],
+"edge_in": -21.5,
+"edge_out": -36.4,
+"heard": "One block.",
+"islands": 1,
+"lead": 55,
+"lufs": -16.45,
+"trail": 65
+},
 "heard": "One block.",
 "padded": true,
 "sim": 0.961,
 "take": "iwnbar~6",
 "text": "One block!",
-"trimmed_sim": 0.779
+"trimmed_sim": 0.778
 },
 "ix3n4e": {
 "heard": "Five blocks.",
@@ -544,12 +650,22 @@
 "trimmed_sim": 0.79
 },
 "m32ev0": {
-"heard": "3 blocks!",
+"check": {
+"bad": [],
+"edge_in": -29.5,
+"edge_out": -37.3,
+"heard": "three blocks.",
+"islands": 1,
+"lead": 55,
+"lufs": -16.44,
+"trail": 50
+},
+"heard": "three blocks.",
 "padded": true,
-"sim": 0.946,
-"take": "m32ev0~3",
+"sim": 0.93,
+"take": "m32ev0~5",
 "text": "Three blocks!",
-"trimmed_sim": 0.798
+"trimmed_sim": 0.743
 },
 "mdqb44": {
 "heard": "A new block for the build yard!",
@@ -612,7 +728,17 @@
 "text": "Build a tower up to the flag!"
 },
 "uu9fg8": {
-"heard": "Six blocks.",
+"check": {
+"bad": [],
+"edge_in": -34.3,
+"edge_out": -35.5,
+"heard": "Six blocks?",
+"islands": 1,
+"lead": 55,
+"lufs": -16.49,
+"trail": 45
+},
+"heard": "Six blocks?",
 "padded": true,
 "sim": 0.944,
 "take": "uu9fg8~4",
@@ -646,12 +772,22 @@
 "trimmed_sim": 0.774
 },
 "yk2u62": {
-"heard": "6.",
+"check": {
+"bad": [],
+"edge_in": -33.8,
+"edge_out": -33.3,
+"heard": "SIX",
+"islands": 1,
+"lead": 50,
+"lufs": -16.38,
+"trail": 45
+},
+"heard": "Six!",
 "padded": true,
-"sim": 0.93,
-"take": "yk2u62~1",
+"sim": 0.901,
+"take": "yk2u62~0",
 "text": "Six!",
-"trimmed_sim": 0.644
+"trimmed_sim": 0.685
 },
 "yk3ia5": {
 "heard": "10.",

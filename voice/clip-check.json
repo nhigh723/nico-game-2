@@ -1,0 +1,241 @@
+{
+ "Eight!": {
+  "lead": 0,
+  "trail": 0,
+  "edge_in": -4.0,
+  "edge_out": -16.5,
+  "islands": 2,
+  "lufs": -18.56,
+  "heard": "8",
+  "exact": true,
+  "bad": [
+   "padding",
+   "cut-in",
+   "carrier"
+  ]
+ },
+ "Five!": {
+  "lead": 0,
+  "trail": 50,
+  "edge_in": -7.4,
+  "edge_out": -36.4,
+  "islands": 2,
+  "lufs": -16.46,
+  "heard": "5",
+  "exact": true,
+  "bad": [
+   "padding",
+   "cut-in",
+   "carrier"
+  ]
+ },
+ "Four blocks!": {
+  "lead": 50,
+  "trail": 65,
+  "edge_in": -26.0,
+  "edge_out": -34.9,
+  "islands": 1,
+  "lufs": -16.35,
+  "heard": "Four blocks?",
+  "exact": true,
+  "bad": []
+ },
+ "Four!": {
+  "lead": 60,
+  "trail": 0,
+  "edge_in": -38.2,
+  "edge_out": -15.5,
+  "islands": 1,
+  "lufs": -16.38,
+  "heard": "For",
+  "exact": true,
+  "bad": [
+   "padding"
+  ]
+ },
+ "Hooray!": {
+  "lead": 0,
+  "trail": 0,
+  "edge_in": -17.3,
+  "edge_out": -17.3,
+  "islands": 2,
+  "lufs": -16.4,
+  "heard": "Hooray!",
+  "exact": true,
+  "bad": [
+   "padding",
+   "carrier"
+  ]
+ },
+ "It fits!": {
+  "lead": 50,
+  "trail": 0,
+  "edge_in": -3.0,
+  "edge_out": -11.8,
+  "islands": 3,
+  "lufs": -17.96,
+  "heard": "It fits!",
+  "exact": true,
+  "bad": [
+   "padding",
+   "cut-in",
+   "cut-out",
+   "carrier"
+  ]
+ },
+ "New color!": {
+  "lead": 0,
+  "trail": 55,
+  "edge_in": -1.5,
+  "edge_out": -34.2,
+  "islands": 1,
+  "lufs": -16.4,
+  "heard": "color!",
+  "exact": false,
+  "bad": [
+   "padding",
+   "cut-in",
+   "asr"
+  ]
+ },
+ "One block!": {
+  "lead": 45,
+  "trail": 45,
+  "edge_in": -22.5,
+  "edge_out": -37.3,
+  "islands": 1,
+  "lufs": -16.39,
+  "heard": "One block.",
+  "exact": true,
+  "bad": []
+ },
+ "One!": {
+  "lead": 0,
+  "trail": 0,
+  "edge_in": -16.7,
+  "edge_out": -14.1,
+  "islands": 2,
+  "lufs": -16.44,
+  "heard": "1",
+  "exact": true,
+  "bad": [
+   "padding",
+   "carrier"
+  ]
+ },
+ "Six blocks!": {
+  "lead": 25,
+  "trail": 0,
+  "edge_in": -34.9,
+  "edge_out": -28.5,
+  "islands": 2,
+  "lufs": -16.47,
+  "heard": "Six blocks.",
+  "exact": true,
+  "bad": [
+   "padding",
+   "carrier"
+  ]
+ },
+ "Six!": {
+  "lead": 0,
+  "trail": 0,
+  "edge_in": -3.7,
+  "edge_out": -22.7,
+  "islands": 2,
+  "lufs": -22.57,
+  "heard": "6.",
+  "exact": true,
+  "bad": [
+   "padding",
+   "cut-in",
+   "carrier",
+   "loudness"
+  ]
+ },
+ "Ten!": {
+  "lead": 45,
+  "trail": 0,
+  "edge_in": -21.6,
+  "edge_out": -9.5,
+  "islands": 2,
+  "lufs": -16.4,
+  "heard": "10.",
+  "exact": true,
+  "bad": [
+   "padding",
+   "cut-out",
+   "carrier"
+  ]
+ },
+ "Three blocks!": {
+  "lead": 0,
+  "trail": 0,
+  "edge_in": -6.5,
+  "edge_out": -18.4,
+  "islands": 2,
+  "lufs": -16.4,
+  "heard": "3 blocks!",
+  "exact": true,
+  "bad": [
+   "padding",
+   "cut-in",
+   "carrier"
+  ]
+ },
+ "Three!": {
+  "lead": 45,
+  "trail": 0,
+  "edge_in": -29.5,
+  "edge_out": -4.5,
+  "islands": 2,
+  "lufs": -19.22,
+  "heard": "3.",
+  "exact": true,
+  "bad": [
+   "padding",
+   "cut-out",
+   "carrier"
+  ]
+ },
+ "Two blocks!": {
+  "lead": 0,
+  "trail": 45,
+  "edge_in": -16.9,
+  "edge_out": -36.5,
+  "islands": 2,
+  "lufs": -16.45,
+  "heard": "Two blocks!",
+  "exact": true,
+  "bad": [
+   "padding",
+   "carrier"
+  ]
+ },
+ "Two!": {
+  "lead": 0,
+  "trail": 0,
+  "edge_in": -24.8,
+  "edge_out": -8.2,
+  "islands": 2,
+  "lufs": -16.48,
+  "heard": "to",
+  "exact": true,
+  "bad": [
+   "padding",
+   "cut-out",
+   "carrier"
+  ]
+ },
+ "You did it!": {
+  "lead": 45,
+  "trail": 45,
+  "edge_in": -19.8,
+  "edge_out": -37.1,
+  "islands": 1,
+  "lufs": -16.45,
+  "heard": "You did it!",
+  "exact": true,
+  "bad": []
+ }
+}
