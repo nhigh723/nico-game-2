@@ -15,7 +15,7 @@ if mode == 'prep':
     json.dump([[h, f'{PRE} {t} {POST}'] for h, t in miss], open(f'{G}/voice/pad.json', 'w')); print(len(miss), 'padded lines'); sys.exit()
 import numpy as np, soundfile as sf, librosa
 sys.argv = [sys.argv[0], todo, f'{G}/voice/padtakes']
-src = open(f'{G}/scripts/install-clone-voice.py').read(); exec(src[:src.index('items, td =')])  # clean/export/HOMO/words/wer
+src = open(f'{G}/scripts/install-clone-voice.py').read(); exec(src[:src.index('items, td =')]); exec(src[src.index('HOMO ='):src.index('TXT =')])  # clean/export/HOMO/words/wer
 from transformers import pipeline; from resemblyzer import VoiceEncoder, preprocess_wav
 asr = pipeline('automatic-speech-recognition', model='openai/whisper-small.en'); enc = VoiceEncoder('cpu'); C = np.load('/workspace/tts/qclone/pack_centroid.npy')
 td = f'{G}/voice/padtakes'; gate = json.load(open(f'{td}/gate.json')); recf = f'{G}/voice/clones.json'; rec = json.load(open(recf)) if os.path.exists(recf) else {}

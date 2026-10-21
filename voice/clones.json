@@ -113,6 +113,14 @@
 "take": "1cs6cwr~0",
 "text": "That space needs a square or a rectangle!"
 },
+"1cyqwlz": {
+"heard": "8.",
+"padded": true,
+"sim": 0.94,
+"take": "1cyqwlz~6",
+"text": "Eight!",
+"trimmed_sim": 0.673
+},
 "1czk95t": {
 "heard": "Look! A house!",
 "sim": 0.84,
@@ -137,6 +145,14 @@
 "take": "1e5s9fk~0",
 "text": "Whoa! It tipped over. Put it in the middle!"
 },
+"1e9g2d4": {
+"heard": "Hooray!",
+"padded": true,
+"sim": 0.942,
+"take": "1e9g2d4~3",
+"text": "Hooray!",
+"trimmed_sim": 0.731
+},
 "1g24mp8": {
 "heard": "You used two blocks.",
 "sim": 0.847,
@@ -154,6 +170,14 @@
 "sim": 0.886,
 "take": "1hyl618~0",
 "text": "Fourteen blocks!"
+},
+"1j6otxr": {
+"heard": "new color!",
+"padded": true,
+"sim": 0.952,
+"take": "1j6otxr~3",
+"text": "New color!",
+"trimmed_sim": 0.752
 },
 "1jj6p6k": {
 "heard": "You used five blocks.",
@@ -197,6 +221,14 @@
 "take": "1lyg0hz~10",
 "text": "Seven!"
 },
+"1mnrzlq": {
+"heard": "Three.",
+"padded": true,
+"sim": 0.947,
+"take": "1mnrzlq~5",
+"text": "Three!",
+"trimmed_sim": 0.686
+},
 "1n2spr0": {
 "heard": "Bunny made it! Your bridge is strong!",
 "sim": 0.911,
@@ -214,6 +246,14 @@
 "sim": 0.941,
 "take": "1oh9odb~0",
 "text": "Splash! That plank was too short. Find a longer one!"
+},
+"1p30gsx": {
+"heard": "You did it!",
+"padded": true,
+"sim": 0.945,
+"take": "1p30gsx~1",
+"text": "You did it!",
+"trimmed_sim": 0.699
 },
 "1s1g5x1": {
 "heard": "Put a post in the water to hold the planks.",
@@ -305,6 +345,30 @@
 "take": "2vn8ul~0",
 "text": "That space needs a star!"
 },
+"3nmc7k": {
+"heard": "5",
+"padded": true,
+"sim": 0.95,
+"take": "3nmc7k~3",
+"text": "Five!",
+"trimmed_sim": 0.72
+},
+"3nqy2q": {
+"heard": "For",
+"padded": true,
+"sim": 0.935,
+"take": "3nqy2q~4",
+"text": "Four!",
+"trimmed_sim": 0.745
+},
+"3vbyah": {
+"heard": "It fits!",
+"padded": true,
+"sim": 0.962,
+"take": "3vbyah~6",
+"text": "It fits!",
+"trimmed_sim": 0.784
+},
 "3vcvsw": {
 "heard": "Hmm, look again, which color goes there?",
 "sim": 0.931,
@@ -328,6 +392,14 @@
 "sim": 0.933,
 "take": "5j0ub0~0",
 "text": "Your town is empty. Build something in the Build Yard!"
+},
+"5qxldq": {
+"heard": "Two blocks!",
+"padded": true,
+"sim": 0.947,
+"take": "5qxldq~3",
+"text": "Two blocks!",
+"trimmed_sim": 0.82
 },
 "64cesm": {
 "heard": "You used six blocks!",
@@ -443,6 +515,14 @@
 "take": "hrnv6u~1",
 "text": "Bunny wants the carrot! Build a bridge across the water."
 },
+"iwnbar": {
+"heard": "One block.",
+"padded": true,
+"sim": 0.961,
+"take": "iwnbar~6",
+"text": "One block!",
+"trimmed_sim": 0.779
+},
 "ix3n4e": {
 "heard": "Five blocks.",
 "sim": 0.858,
@@ -454,6 +534,22 @@
 "sim": 0.873,
 "take": "k6hj01~1",
 "text": "You used eleven blocks!"
+},
+"kpjby8": {
+"heard": "Four blocks?",
+"padded": true,
+"sim": 0.937,
+"take": "kpjby8~6",
+"text": "Four blocks!",
+"trimmed_sim": 0.79
+},
+"m32ev0": {
+"heard": "3 blocks!",
+"padded": true,
+"sim": 0.946,
+"take": "m32ev0~3",
+"text": "Three blocks!",
+"trimmed_sim": 0.798
 },
 "mdqb44": {
 "heard": "A new block for the build yard!",
@@ -515,6 +611,14 @@
 "take": "q311ij~1",
 "text": "Build a tower up to the flag!"
 },
+"uu9fg8": {
+"heard": "Six blocks.",
+"padded": true,
+"sim": 0.944,
+"take": "uu9fg8~4",
+"text": "Six blocks!",
+"trimmed_sim": 0.805
+},
 "x6c8gp": {
 "heard": "Can you build one just like mine?",
 "sim": 0.912,
@@ -532,6 +636,38 @@
 "sim": 0.919,
 "take": "y8pgg8~2",
 "text": "You used nineteen blocks!"
+},
+"yjzuyw": {
+"heard": "1",
+"padded": true,
+"sim": 0.947,
+"take": "yjzuyw~4",
+"text": "One!",
+"trimmed_sim": 0.774
+},
+"yk2u62": {
+"heard": "6.",
+"padded": true,
+"sim": 0.93,
+"take": "yk2u62~1",
+"text": "Six!",
+"trimmed_sim": 0.644
+},
+"yk3ia5": {
+"heard": "10.",
+"padded": true,
+"sim": 0.932,
+"take": "yk3ia5~0",
+"text": "Ten!",
+"trimmed_sim": 0.725
+},
+"yk3xfk": {
+"heard": "to",
+"padded": true,
+"sim": 0.948,
+"take": "yk3xfk~6",
+"text": "Two!",
+"trimmed_sim": 0.755
 },
 "z31nms": {
 "heard": "Zero blocks.",
