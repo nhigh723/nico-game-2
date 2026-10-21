@@ -28,7 +28,7 @@ def export(x, sr, out):
 items, td = json.load(open(argv[1])), argv[2]; gate = json.load(open(f'{td}/gate.json'))
 os.makedirs(OUT, exist_ok=True); mf = f'{OUT}/manifest.json'; man = json.load(open(mf)) if os.path.exists(mf) else {}
 recf = f'{G}/voice/clones.json'; rec = json.load(open(recf)) if os.path.exists(recf) else {}
-HOMO = {'two': '2', 'to': '2', 'too': '2', 'one': '1', 'won': '1', 'three': '3', 'four': '4', 'for': '4', 'five': '5', 'six': '6', 'eight': '8', 'ate': '8', 'ten': '10'}
+HOMO = {'two': '2', 'to': '2', 'too': '2', 'one': '1', 'won': '1', 'three': '3', 'four': '4', 'for': '4', 'five': '5', 'six': '6', 'eight': '8', 'ate': '8', 'ten': '10', 'eleven': '11', 'twelve': '12', 'thirteen': '13', 'fourteen': '14', 'fifteen': '15', 'sixteen': '16', 'seventeen': '17', 'eighteen': '18', 'nineteen': '19', 'twenty': '20'}
 NAME_RE = r"nico|neeko|nikko|niko"  # spellings Whisper may use for the mascot name
 def w1(x): x = HOMO.get(x, x); return 'mascot' if re.fullmatch(NAME_RE, x) else x
 def words(t): return [w1(w) for w in re.sub(r"[^a-z0-9' ]", ' ', t.lower().replace('+', ' plus ').replace('-', ' ')).split()]
