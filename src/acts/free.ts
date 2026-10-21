@@ -56,7 +56,10 @@ export function free(api: Api): Activity {
     next() {
       if (saving >= 0) return null; if (placed.length >= 4) return { type: 'tap', x: 335, y: 200 };
       const ks = pal(), i = ks.indexOf(placed.length === 3 ? 'roof' : 'brick'), s = slot(Math.max(0, i)), top = placed.reduce((m, b) => Math.min(m, b.y), GROUND);
-      return { type: 'drag', path: [[s.x + 33, s.y + 33], [160, top - 100], [160, top - 50]] };
+      const T = TEMPLATES[ks[Math.max(0, i)]]; let bx = 160, by = GROUND; // build on the tallest spot that isn't a pointy/round top
+      for (let x = 60; x <= 330; x += 10) { const r = restOn(placed, x - T.w / 2, T.w, GROUND); if (!r.round && r.y < by - 1 && !unstable([...placed, { id: -1, sh: T.sh, x: x - T.w / 2, y: r.y - T.h, w: T.w, h: T.h, col: '' }], GROUND, 0)) { by = r.y; bx = x; } }
+      if (by === GROUND) for (const x of [160, 100, 220, 280, 60, 330]) { const r = restOn(placed, x - T.w / 2, T.w, GROUND); if (!r.round) { bx = x; by = r.y; break; } }
+      void top; return { type: 'drag', path: [[s.x + 33, s.y + 33], [bx, by - 100], [bx, by - 50]] };
     },
     busy: () => saving >= 0,
   };

@@ -86,7 +86,7 @@ function drawTitle() {
   btn('play', 195 - 70, 670, 140, 140, () => { initAudio(); sfx.snap(); go('hub'); });
 }
 function drawHub() {
-  sky(c, '#ff7ac4', '#ffd6ee', T, 790, '#ffb3dd', '#ff9fd2');
+  sky(c, '#ff7ac4', '#ffd6ee', T, 790, '#ffb3dd', '#ff9fd2', false);
   backBtn(() => go('title')); mascotBust(c, 195, 66, 46, T, isSpeaking()); btn('hubMascot', 150, 20, 90, 90, () => { sfx.tap(); say(L.hub); });
   roundBtn('gear', W - 44, 50, 22, 'rgba(255,255,255,0.5)', (c) => { c.fillStyle = '#7a5a8a'; for (let i = 0; i < 8; i++) { c.save(); c.rotate(i * 0.785); c.fillRect(-3, -14, 6, 8); c.restore(); } c.beginPath(); c.arc(0, 0, 9, 0, 6.28); c.fill(); c.fillStyle = '#fff'; c.beginPath(); c.arc(0, 0, 4, 0, 6.28); c.fill(); }, () => { initAudio(); sfx.tap(); openGate(); });
   for (let i = 0; i < 6; i++) {
