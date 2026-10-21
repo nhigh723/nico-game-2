@@ -1,4 +1,4 @@
-# Codemagic cloud build: Capacitor iOS -> signed IPA -> TestFlight / App Store Connect.
+# Codemagic cloud build for game #2 (com.nickhigh.game2): same signing setup as the science-game (integration "codemagic", group "ios_signing_key", secret CERTIFICATE_PRIVATE_KEY). Steps: docs/SUBMIT.md
 # One-time setup (see docs/SUBMIT.md):
 #   1. Team settings > Team integrations > Developer Portal: add your App Store Connect API key, named "codemagic".
 #   2. App > Environment variables: secret CERTIFICATE_PRIVATE_KEY in group "ios_signing_key".

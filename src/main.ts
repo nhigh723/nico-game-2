@@ -213,7 +213,19 @@ addEventListener('blur', () => { if (pointerId !== null && act) act.up({ x: 0, y
 document.addEventListener('visibilitychange', () => { if (document.hidden) setMuted(true); else setMuted(false); });
 document.title = GAME_TITLE; void initStore(); requestAnimationFrame(frame); setTimeout(() => { if (screen === 'title') say(L.title, false); }, 600);
 // ---- test hooks ----
-(window as any).__snap = {
+/** Store art, drawn with the game's own art code (scripts/icons.mjs saves it): 'icon' = 1024 full-bleed square, 'splash' = 2732 square launch art. */
+function renderArt(kind: 'icon' | 'splash') {
+  const N = kind === 'icon' ? 1024 : 2732, cv2 = document.createElement('canvas'); cv2.width = cv2.height = N; const g = cv2.getContext('2d')!;
+  if (kind === 'icon') { const k = N / 390; g.scale(k, k); const bg = g.createRadialGradient(195, 150, 20, 195, 195, 290); bg.addColorStop(0, '#fff36b'); bg.addColorStop(0.55, '#ffb21f'); bg.addColorStop(1, '#ff5f8f'); g.fillStyle = bg; g.fillRect(0, 0, 390, 390);
+    g.fillStyle = 'rgba(255,255,255,0.25)'; for (let i = 0; i < 12; i++) { g.save(); g.translate(195, 230); g.rotate(i * 0.5236); g.beginPath(); g.moveTo(0, 0); g.lineTo(-30, -330); g.lineTo(30, -330); g.fill(); g.restore(); }
+    block(g, 'box', 18, 300, 120, 70, COLORS[4]); block(g, 'box', 30, 236, 96, 64, COLORS[3]); block(g, 'tri', 30, 176, 96, 60, COLORS[0]);
+    block(g, 'box', 262, 310, 110, 60, COLORS[5]); block(g, 'star', 290, 248, 60, 60, COLORS[2]);
+    g.save(); g.beginPath(); g.rect(0, 0, 390, 390); g.clip(); mascot(g, 200, 600, 540, 'stand', 0.5, false); g.restore(); }
+  else { const k = N / 390; g.scale(k, k); g.translate(0, -290); sky(g, '#2fbaff', '#bdf0ff', 0, 640); for (const [x, y, w, h, c2] of [[40, 560, 80, 80, 0], [130, 520, 60, 120, 4], [260, 580, 100, 60, 3]] as const) block(g, 'box', x, y, w, h, COLORS[c2]);
+    block(g, 'tri', 120, 460, 80, 60, COLORS[0]); mascot(g, 195, 640, 330, 'wave', 0.5, false); }
+  return cv2.toDataURL('image/png');
+}
+(window as any).__snap = { renderArt,
   get screen() { return screen; }, get act() { return actI; }, get level() { return level; }, get winT() { return winT; }, get modal() { return modal ? modal.kind : null; }, get demo() { return demo ? demo.a : null; },
   buttons: () => btns.map(b => ({ id: b.id, x: b.x, y: b.y, w: b.w, h: b.h })), next: () => act?.next() ?? null, busy: () => !!act?.busy?.(),
   toScreen: (x: number, y: number) => { const r = cv.getBoundingClientRect(); return { x: r.left + (ox + x * scale) / dpr, y: r.top + (oy + y * scale) / dpr }; },

@@ -1,0 +1,11 @@
+{
+  "bundleId": "com.nickhigh.game2",
+  "subscriptionGroup": "Nico Club (game 2)",
+  "products": [
+    { "id": "com.nickhigh.game2.club.yearly", "type": "auto-renewable subscription", "duration": "1 year", "price": "29.99 USD", "introOffer": "7-day free trial", "groupLevel": 1 },
+    { "id": "com.nickhigh.game2.club.monthly", "type": "auto-renewable subscription", "duration": "1 month", "price": "4.99 USD", "introOffer": "7-day free trial", "groupLevel": 2 },
+    { "id": "com.nickhigh.game2.forever", "type": "non-consumable", "price": "59.99 USD" }
+  ],
+  "freeTier": "Activities 1-2 (Fill the Shape, Tall Tower); everything else needs the Club or Forever",
+  "source": "src/store.ts PRODUCTS must match these ids"
+}
