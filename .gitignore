@@ -1,6 +1,7 @@
-node_modules/
-dist/
-ios/App/Pods/
+node_modules
+dist
+voice/takes
+ios/App/Pods
 ios/App/App/public/
-tests/fail-*.png
 *.log
+tests/fail-*.png
