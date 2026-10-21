@@ -191,6 +191,12 @@
 "take": "1lkel01~1",
 "text": "Wow, that is a big building! Save it to your town."
 },
+"1lyg0hz": {
+"heard": "Seven!",
+"sim": 0.842,
+"take": "1lyg0hz~10",
+"text": "Seven!"
+},
 "1n2spr0": {
 "heard": "Bunny made it! Your bridge is strong!",
 "sim": 0.911,
@@ -389,6 +395,12 @@
 "take": "e06u3f~0",
 "text": "Hi! I'm Nico. Let's build!"
 },
+"emhmbb": {
+"heard": "Awesome",
+"sim": 0.853,
+"take": "emhmbb~8",
+"text": "Awesome!"
+},
 "evbywf": {
 "heard": "3, 2, 1, blast off!",
 "sim": 0.929,
@@ -430,6 +442,12 @@
 "sim": 0.928,
 "take": "hrnv6u~1",
 "text": "Bunny wants the carrot! Build a bridge across the water."
+},
+"ix3n4e": {
+"heard": "Five blocks.",
+"sim": 0.858,
+"take": "ix3n4e~10",
+"text": "Five blocks!"
 },
 "k6hj01": {
 "heard": "You used 11 blocks.",
