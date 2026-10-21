@@ -31,10 +31,13 @@ for h, text in miss:
         a, b = flat[n0][1][0], flat[n0 + len(tgt) - 1][1][1]
         if a is None or b is None: continue
         nxt = flat[n0 + len(tgt)][1][0] if len(flat) > n0 + len(tgt) else b + 0.3
-        a, b = max(0, a - 0.08), min(b + 0.15, (b + nxt) / 2 if nxt else b + 0.15)
-        cut = y[int(a * sr):int(b * sr)]; c16 = librosa.resample(cut, orig_sr=sr, target_sr=16000)
-        heard = asr(c16.copy())['text']
-        if wer(text, heard) != 0: continue
+        ok = False
+        for m0, m1 in ((0.08, 0.15), (0.04, 0.06), (0.02, 0.0)):
+            a2, b2 = max(0, a - m0), min(b + m1, (b + nxt) / 2 if nxt else b + m1)
+            cut = y[int(a2 * sr):int(b2 * sr)]; c16 = librosa.resample(cut, orig_sr=sr, target_sr=16000)
+            heard = asr(c16.copy())['text']
+            if words(heard) == words(text): ok = True; break  # exact: no carrier word may leak into the clip
+        if not ok: continue
         tsim = float(enc.embed_utterance(preprocess_wav(c16, 16000)) @ C)
         export(clean(cut, sr, False), sr, f'{G}/public/voice/{h}.mp3'); man[h] = f'{h}.mp3'; added += 1
         rec[h] = dict(text=text, take=k, sim=sim, padded=True, trimmed_sim=round(tsim, 3), heard=heard.strip()); report[text] = (sim, round(tsim, 3)); done = True; break
