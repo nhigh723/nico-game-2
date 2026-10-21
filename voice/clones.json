@@ -1,0 +1,356 @@
+{
+"123m324": {
+"heard": "Super Builder",
+"sim": 0.855,
+"take": "123m324~1",
+"text": "Super builder!"
+},
+"14tdqmw": {
+"heard": "Choo-choo, a train!",
+"sim": 0.849,
+"take": "14tdqmw~0",
+"text": "Choo choo! A train!"
+},
+"14w2yx": {
+"heard": "That space needs a triangle!",
+"sim": 0.894,
+"take": "14w2yx~1",
+"text": "That space needs a triangle!"
+},
+"15fjyk7": {
+"heard": "Tap the eye to peek.",
+"sim": 0.905,
+"take": "15fjyk7~0",
+"text": "Tap the eye to peek!"
+},
+"17s3rwz": {
+"heard": "You used seven blocks!",
+"sim": 0.921,
+"take": "17s3rwz~1",
+"text": "You used seven blocks!"
+},
+"18hpxqy": {
+"heard": "Crash! Put the big blocks at the bottom. Try again!",
+"sim": 0.936,
+"take": "18hpxqy~1",
+"text": "Crash! Put the big blocks at the bottom. Try again!"
+},
+"194q9pc": {
+"heard": "That space needs a half circle.",
+"sim": 0.904,
+"take": "194q9pc~0",
+"text": "That space needs a half circle!"
+},
+"1a13zzo": {
+"heard": "Great job!",
+"sim": 0.878,
+"take": "1a13zzo~0",
+"text": "Great job!"
+},
+"1b6vhy1": {
+"heard": "What shall we build today?",
+"sim": 0.923,
+"take": "1b6vhy1~0",
+"text": "What shall we build today?"
+},
+"1cs6cwr": {
+"heard": "That space needs a square or a rectangle.",
+"sim": 0.922,
+"take": "1cs6cwr~0",
+"text": "That space needs a square or a rectangle!"
+},
+"1da935o": {
+"heard": "Drag each shape into its space.",
+"sim": 0.911,
+"take": "1da935o~1",
+"text": "Drag each shape into its space!"
+},
+"1doz6oc": {
+"heard": "Welcome to your town!",
+"sim": 0.86,
+"take": "1doz6oc~0",
+"text": "Welcome to your town!"
+},
+"1e5s9fk": {
+"heard": "Whoa, it tipped over. Put it in the middle.",
+"sim": 0.905,
+"take": "1e5s9fk~0",
+"text": "Whoa! It tipped over. Put it in the middle!"
+},
+"1hjs23p": {
+"heard": "Tap the ball to let it roll.",
+"sim": 0.914,
+"take": "1hjs23p~0",
+"text": "Tap the ball to let it roll!"
+},
+"1jj6p6k": {
+"heard": "You used five blocks.",
+"sim": 0.893,
+"take": "1jj6p6k~1",
+"text": "You used five blocks!"
+},
+"1k6p7x9": {
+"heard": "Look again! Is it a square or a triangle?",
+"sim": 0.956,
+"take": "1k6p7x9~1",
+"text": "Look again! Is it a square or a triangle?"
+},
+"1l348uu": {
+"heard": "Tap bunny when your bridge is ready.",
+"sim": 0.924,
+"take": "1l348uu~1",
+"text": "Tap Bunny when your bridge is ready!"
+},
+"1lbme0e": {
+"heard": "You used four blocks.",
+"sim": 0.884,
+"take": "1lbme0e~1",
+"text": "You used four blocks!"
+},
+"1lkel01": {
+"heard": "Wow! That is a big building! Save it to your town!",
+"sim": 0.898,
+"take": "1lkel01~1",
+"text": "Wow, that is a big building! Save it to your town."
+},
+"1n2spr0": {
+"heard": "Bunny made it! Your bridge is strong!",
+"sim": 0.911,
+"take": "1n2spr0~0",
+"text": "Bunny made it! Your bridge is strong!"
+},
+"1o6qtv9": {
+"heard": "A new friend moved into your town!",
+"sim": 0.902,
+"take": "1o6qtv9~0",
+"text": "A new friend moved into your town!"
+},
+"1oh9odb": {
+"heard": "Splash! That plank was too short. Find a longer one!",
+"sim": 0.941,
+"take": "1oh9odb~0",
+"text": "Splash! That plank was too short. Find a longer one!"
+},
+"1s1g5x1": {
+"heard": "Put a post in the water to hold the planks.",
+"sim": 0.903,
+"take": "1s1g5x1~1",
+"text": "Put a post in the water to hold the planks!"
+},
+"1sg30dn": {
+"heard": "Drag the ramp into the empty space.",
+"sim": 0.903,
+"take": "1sg30dn~1",
+"text": "Drag the ramp into the empty space!"
+},
+"1tcp5mg": {
+"heard": "A tree with apples!",
+"sim": 0.88,
+"take": "1tcp5mg~0",
+"text": "A tree with apples!"
+},
+"1wb43x7": {
+"heard": "Wobble, a plank needs something to hold it up at both ends.",
+"sim": 0.941,
+"take": "1wb43x7~0",
+"text": "Wobble! A plank needs something to hold it up at both ends."
+},
+"1wzdjq8": {
+"heard": "Help the ball roll down to the bell. Tap a ramp to tilt it.",
+"sim": 0.894,
+"take": "1wzdjq8~0",
+"text": "Help the ball roll down to the bell! Tap a ramp to tilt it."
+},
+"1y5jzsk": {
+"heard": "A castle for a king.",
+"sim": 0.872,
+"take": "1y5jzsk~0",
+"text": "A castle for a king!"
+},
+"1yns57j": {
+"heard": "You built the whole picture!",
+"sim": 0.901,
+"take": "1yns57j~1",
+"text": "You built the whole picture!"
+},
+"25clr3": {
+"heard": "That space needs an arch.",
+"sim": 0.872,
+"take": "25clr3~1",
+"text": "That space needs an arch!"
+},
+"2psi7o": {
+"heard": "Ask a grown-up to open this one!",
+"sim": 0.899,
+"take": "2psi7o~0",
+"text": "Ask a grown-up to open this one!"
+},
+"2vn8ul": {
+"heard": "That space needs a star.",
+"sim": 0.897,
+"take": "2vn8ul~0",
+"text": "That space needs a star!"
+},
+"3vcvsw": {
+"heard": "Hmm, look again, which color goes there?",
+"sim": 0.931,
+"take": "3vcvsw~0",
+"text": "Hmm, look again! Which color goes there?"
+},
+"429qd": {
+"heard": "Build anything you like! Tap the house to keep it in your town!",
+"sim": 0.923,
+"take": "429qd~1",
+"text": "Build anything you like! Tap the house to keep it in your town."
+},
+"5efgib": {
+"heard": "Too small! Find a bigger one!",
+"sim": 0.928,
+"take": "5efgib~1",
+"text": "Too small! Find a bigger one."
+},
+"5j0ub0": {
+"heard": "Your town is empty. Build something in the build yard.",
+"sim": 0.933,
+"take": "5j0ub0~0",
+"text": "Your town is empty. Build something in the Build Yard!"
+},
+"64cesm": {
+"heard": "You used six blocks!",
+"sim": 0.851,
+"take": "64cesm~0",
+"text": "You used six blocks!"
+},
+"6s6xwx": {
+"heard": "Seventeen blocks.",
+"sim": 0.896,
+"take": "6s6xwx~0",
+"text": "Seventeen blocks!"
+},
+"a0bab": {
+"heard": "You used eight blocks.",
+"sim": 0.882,
+"take": "a0bab~1",
+"text": "You used eight blocks!"
+},
+"d4ribi": {
+"heard": "Look at my building! Now I will hide it!",
+"sim": 0.897,
+"take": "d4ribi~0",
+"text": "Look at my building. Now I will hide it!"
+},
+"d5noqk": {
+"heard": "You used nine blocks!",
+"sim": 0.864,
+"take": "d5noqk~1",
+"text": "You used nine blocks!"
+},
+"drxy8t": {
+"heard": "It stayed up. Wide blocks at the bottom make it strong.",
+"sim": 0.941,
+"take": "drxy8t~1",
+"text": "It stayed up! Wide blocks at the bottom make it strong!"
+},
+"e06u3f": {
+"heard": "Hi, I'm Nico. Let's build!",
+"sim": 0.892,
+"take": "e06u3f~0",
+"text": "Hi! I'm Nico. Let's build!"
+},
+"evbywf": {
+"heard": "3, 2, 1, blast off!",
+"sim": 0.929,
+"take": "evbywf~1",
+"text": "Three, two, one, blast off!"
+},
+"fmvi9p": {
+"heard": "Oops! Nothing stays on a pointy or round top.",
+"sim": 0.931,
+"take": "fmvi9p~0",
+"text": "Oops! Nothing stays on a pointy or round top."
+},
+"g6brdk": {
+"heard": "Same as mine! You copied it!",
+"sim": 0.864,
+"take": "g6brdk~0",
+"text": "Same as mine! You copied it!"
+},
+"gjpt5x": {
+"heard": "That space needs a circle.",
+"sim": 0.897,
+"take": "gjpt5x~0",
+"text": "That space needs a circle!"
+},
+"h8vvt2": {
+"heard": "Your building moved into my town.",
+"sim": 0.914,
+"take": "h8vvt2~0",
+"text": "Your building moved into My Town!"
+},
+"hrnv6u": {
+"heard": "Bunny wants the carrot. Build a bridge across the water.",
+"sim": 0.928,
+"take": "hrnv6u~1",
+"text": "Bunny wants the carrot! Build a bridge across the water."
+},
+"mdqb44": {
+"heard": "A new block for the build yard!",
+"sim": 0.91,
+"take": "mdqb44~0",
+"text": "A new block for the Build Yard!"
+},
+"mh1mww": {
+"heard": "So tall! Now tap the fan! Will it stand?",
+"sim": 0.922,
+"take": "mh1mww~1",
+"text": "So tall! Now tap the fan. Will it stand?"
+},
+"msyd9m": {
+"heard": "You used three blocks!",
+"sim": 0.845,
+"take": "msyd9m~1",
+"text": "You used three blocks!"
+},
+"nmk5q3": {
+"heard": "So many blocks!",
+"sim": 0.875,
+"take": "nmk5q3~1",
+"text": "So many blocks!"
+},
+"or6a1h": {
+"heard": "Ding, ding! Ramps help things roll down.",
+"sim": 0.92,
+"take": "or6a1h~1",
+"text": "Ding ding! Ramps help things roll down!"
+},
+"otha7g": {
+"heard": "Too big! Find a smaller one!",
+"sim": 0.927,
+"take": "otha7g~1",
+"text": "Too big! Find a smaller one."
+},
+"q311ij": {
+"heard": "Build a tower up to the flag!",
+"sim": 0.893,
+"take": "q311ij~1",
+"text": "Build a tower up to the flag!"
+},
+"x6c8gp": {
+"heard": "Can you build one just like mine?",
+"sim": 0.912,
+"take": "x6c8gp~1",
+"text": "Can you build one just like mine?"
+},
+"x83jc1": {
+"heard": "You used one block.",
+"sim": 0.875,
+"take": "x83jc1~1",
+"text": "You used one block!"
+},
+"zpju2s": {
+"heard": "Sixteen blocks.",
+"sim": 0.888,
+"take": "zpju2s~0",
+"text": "Sixteen blocks!"
+}
+}
