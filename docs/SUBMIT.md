@@ -34,7 +34,7 @@
 10. **Store listing:**
     - Subtitle, description and keywords: draft these from the README.
     - Support URL and privacy URL: the two pages above.
-    - Screenshots: upload `screenshots/` after re-shooting at 1320×2868.
+    - Screenshots: upload `store/screenshots/` (1320×2868, 6.9-inch).
 11. **Code-repo access for Codemagic:** if the repo should be private, flip `nhigh723/nico-game-2` to private. GitHub Pages on a private repo needs a paid plan, so the web demo would then need another host.
 
 ### Codemagic
